@@ -10,7 +10,7 @@ body{
      */
 
      grid-template: 300px 100px 100px / 50% 200px 100px;
-
+     grid-gap: 15px;
 
 }
 .item{
