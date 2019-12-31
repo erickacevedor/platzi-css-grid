@@ -18,3 +18,11 @@ body{
     padding: 10px;
     outline: 1px solid red;
 }
+.item:nth-of-type(4){
+    display: grid;
+    grid-template: 50px 50px 50px / 33.33% 33.33% 33.33%;
+    overflow: auto;
+}
+.item .item{
+    background-color: yellow;
+}
